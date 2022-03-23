@@ -45,7 +45,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 
 window.onload = function () {
   document
-    .getElementById("contact-form")
+    .getElementById("signup")
     .addEventListener("submit", function (event) {
       event.preventDefault();
       // generate a five digit number for the contact_number variable
